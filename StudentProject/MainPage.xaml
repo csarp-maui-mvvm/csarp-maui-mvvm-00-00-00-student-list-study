@@ -9,6 +9,10 @@
     </ContentPage.BindingContext>
     <CollectionView BackgroundColor="Transparent"
                     ItemsSource="{Binding Students}">
-
+        <CollectionView.ItemTemplate>
+            <DataTemplate x:DataType="model:Student">
+                
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
     </CollectionView>
 </ContentPage>
