@@ -7,7 +7,8 @@
     <ContentPage.BindingContext>
         <viewmodle:StudentViewModel/>
     </ContentPage.BindingContext>
-    <CollectionView BackgroundColor="Transparent">
+    <CollectionView BackgroundColor="Transparent"
+                    ItemsSource="{Binding Students}">
 
     </CollectionView>
 </ContentPage>
