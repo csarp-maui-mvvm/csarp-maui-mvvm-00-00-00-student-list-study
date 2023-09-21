@@ -11,7 +11,8 @@
                     ItemsSource="{Binding Students}">
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="model:Student">
-                
+                <Frame Margin="5">
+                </Frame>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
